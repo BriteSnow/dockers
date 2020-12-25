@@ -1,4 +1,4 @@
-FROM britesnow/base-node:20-08-28
+FROM britesnow/base-node:20-12-24
 
 # for postgresql client 12 on buster
 RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ buster-pgdg main" >> /etc/apt/sources.list.d/pgdg.list \
