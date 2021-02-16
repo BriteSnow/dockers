@@ -1,6 +1,7 @@
-FROM britesnow/base-node:20-12-24
+FROM britesnow/base-node:21-02-15
  
-RUN apt-get -y update && apt-get install -y ffmpeg 
+RUN apt-get -y update && \
+    apt-get install -y ffmpeg 
 
 # install libvips (for sharp) - But, not needed apparently since sharp download its version.
 # && apt-get install -y libvips-dev 
