@@ -1,3 +1,4 @@
+[MIT LICENSE](LICENSE)
 
 Some typical base images used by BriteSnow, inc. 
 
