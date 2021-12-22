@@ -1,4 +1,4 @@
-FROM node:16.3.0-buster-slim
+FROM node:16.13.0-buster-slim
 
 # upgrade to the latest npm, curl, vim, git, and procps (for pgrep when restart)
 RUN apt-get -y update && \
