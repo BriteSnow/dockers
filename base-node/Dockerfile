@@ -1,4 +1,4 @@
-FROM node:16.14.2-bullseye-slim
+FROM node:18.6.0-bullseye-slim
 
 # upgrade to the latest npm, curl, vim, git, and procps (for pgrep when restart)
 RUN apt-get -y update && \
