@@ -1,4 +1,4 @@
-FROM britesnow/base-node:22-07-18
+FROM britesnow/base-node:22-11-28
 
 # for postgresql client 14 on bullseye
 RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ bullseye-pgdg main" >> /etc/apt/sources.list.d/pgdg.list \

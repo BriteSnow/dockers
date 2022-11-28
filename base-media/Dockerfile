@@ -1,4 +1,4 @@
-FROM britesnow/base-node:22-07-18
+FROM britesnow/base-node:22-11-28
  
 RUN apt-get -y update && \
     apt-get install -y ffmpeg 
